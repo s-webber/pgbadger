@@ -2564,7 +2564,21 @@ sub html_header
      	</ul>
      	<a class="pull-right btn btn-info" href="#" id="pop-infos" rel="popover" data-html="true" data-placement="bottom" data-original-title="Log Info" data-content="$global_info">
 <i class="icon-info-sign icon-large"></i></a><a id="show-hide-menu" class="btn pull-right" data-toggle="collapse" href="#navigation"><i class="icon-reorder icon-large"></i></a>
-
+     	<ul class="nav pull-right">
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-time icon-large"></i> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="index.html">Last 30min</a></li>
+                          <li><a href="last-1h.html">Last hour</a></li>
+                          <li><a href="last-3h.html">Last 3 hours</a></li>
+                          <li><a href="last-6h.html">Last 6 hours</a></li>
+                          <li><a href="last-day.html">Last day</a></li>
+                          <li class="divider"></li>
+                          <li><a href="last-week.html">Last week</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+     	<ul>
     </div>
   </div>
 </nav>
